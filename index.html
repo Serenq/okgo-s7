@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <title>OKGO Refactor RU</title>
+   <meta name="viewport" content="width=1024">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+   <meta name="HandheldFriendly" content="true">
+   <meta charset="UTF-8">
+   <!--<link rel="shortcut icon" href="favicon.ico">-->
+
+   <!-- styles -->
+   <link rel="stylesheet" href="style/default.css">
+   <link rel="stylesheet" href="style/style.css">
+
+   <!--[if lt IE 9]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+</head>
+
+<body>
+
+   <div class="preloader active">
+      <div class="preloader__container">
+         <div class="preloader__head-item --item_1"></div>
+         <div class="preloader__head-item --item_2"></div>
+         <div class="preloader__head-item --item_3"></div>
+         <div class="preloader__head-item --item_4"></div>
+
+         <div class="preloader__progress-wrap">
+            <div class="preloader__progress-item --message"></div>
+            <div class="preloader__progress-item --dots"></div>
+         </div>
+      </div>
+   </div>
+
+   <div class="photoViever">
+      <img class="photoViever__image" src="img/photo/photo_1.jpg" alt="thing">
+
+      <input class="photoViever__close" type="button" value="close">
+      <input class="photoViever__prev" type="button" value="prev">
+      <input class="photoViever__next" type="button" value="prev">
+   </div>
+
+   <div class="top-bg-pictures">
+      <div class="top-bg-pictures__container --back-pic-container">
+         <img class="top-bg-pictures__picture --pic_1 --anim-type-1 --bg-img" src="img/pic/06.png" alt="06">
+         <!-- shlangist -->
+      </div>
+   </div>
+
+   <!-- youTubeBlock -->
+   <div class="youtube-block">
+      <div class="youtube-block__container">
+         <a class="youtube-block__play-btn" href="javascript:;">
+            <img src="img/pic/03_play.png" alt="thing">
+         </a>
+
+         <div class="yt-gravity-word --scope-me-scale --scope-me-queue">
+            <div class="yt-gravity-word__picture --g"></div>
+            <div class="yt-gravity-word__picture --r"></div>
+            <div class="yt-gravity-word__picture --a"></div>
+            <div class="yt-gravity-word__picture --v"></div>
+            <div class="yt-gravity-word__picture --i"></div>
+            <div class="yt-gravity-word__picture --t"></div>
+            <div class="yt-gravity-word__picture --ta"></div>
+            <div class="yt-gravity-word__picture --c"></div>
+            <div class="yt-gravity-word__picture --i"></div>
+            <div class="yt-gravity-word__picture --ya"></div>
+         </div>
+
+         <div class="yt-privi4ka">
+            <img src="img/pic/05_privi4kaBgTxt.png" alt="thing">
+         </div>
+      </div>
+   </div><!-- youTubeBlock -->
+
+   <main class="content-block">
+      <section class="about-project-block">
+
+         <div class="about-project-block__picture --1nlo --anim-type-2 --bg-img"></div>
+         <!-- nlo -->
+
+         <div class="about-project-block__picture --2cvetok --anim-type-3 --bg-img"></div>
+         <!-- cvetok -->
+
+         <div class="about-project-block__picture --3sintezator --anim-type-4 --bg-img"></div>
+         <!-- sintezator -->
+
+         <div class="about-project-block__picture --4samoletRuka --anim-type-5 --bg-img"></div>
+         <!-- samolet -->
+
+         <div class="about-project-block__picture --5blaster --anim-type-2 --bg-img"></div>
+         <!-- blaster -->
+
+         <div class="about-project-word --bg-img --scope-me-scale --scope-me-queue">
+            <div class="about-project-word__picture --o"></div>
+            <div class="about-project-word__picture --p"></div>
+            <div class="about-project-word__picture --r"></div>
+            <div class="about-project-word__picture --ro"></div>
+            <div class="about-project-word__picture --e"></div>
+            <div class="about-project-word__picture --k"></div>
+            <div class="about-project-word__picture --t"></div>
+            <div class="about-project-word__picture --te"></div>
+         </div>
+
+         <p class="about-project-block__paragraph --par_1 --paragraph-mid --scope-me-fromLeft">
+            Эта история о мечтах детства, которые однажды врываются в твой уже взрослый мир и превращают его в яркий
+            непредска&shy;зуемый хаос. Мы проверили: законы счастья работают в любом измерении. И если вы только
+            собираетесь сделать шаг навстречу своим желаниям и идеям, мы готовы вас вдох&shy;новлять. Смотрите, на что
+            способны смелость, фантазия и люди, которых объединяет мечта.</p>
+         <br>
+
+         <p class="about-project-block__paragraph --par_2 --paragraph-mid --scope-me-fromRight">
+            Летний лагерь. Тиму 11 лет. Он увлекается музыкой и с другом Дэмиеном мечтает создать свою группу, чтобы
+            коле&shy;сить с гастролями по лучшим концертным площадкам.
+         </p>
+
+         <div class="tim-dan-andy-demy">
+            <div class="tim-dan-andy-demy__item --item_1 --anim-type-5"></div>
+            <div class="tim-dan-andy-demy__item --item_2 --anim-type-1"></div>
+            <div class="tim-dan-andy-demy__item --item_3 --anim-type-2"></div>
+            <div class="tim-dan-andy-demy__item --item_4 --anim-type-4"></div>
+         </div>
+
+         <p class="about-project-block__paragraph --par_3 --paragraph-mid --scope-me-fromLeft">
+            Через 10 лет ребята становятся группой OK Go. Их уже четве&shy;ро, они носят броские костюмы и смешные
+            галстуки. Тим играет на бас-гитаре и мечтает с друзьями снять музыкаль&shy;ный клип, не похожий ни на какие
+            другие видео.
+         </p>
+
+         <div class="about-project-baloon --baloon_1 --scope-me-scale">
+            <p class="about-project-baloon__item --baloon_1 --item_1">«В школе я очень любил
+               астро&shy;номию. Мне нравилось наблю&shy;дать за
+               звездами».</p>
+            <p class="about-project-baloon__item --baloon_1 --item_2">Тимоти Нордвинд</p>
+         </div>
+
+         <p class="about-project-block__paragraph --par_3 --paragraph-mid --scope-me-fromRight">
+            Сегодня OK Go профессионально реализуют самые су&shy;масбродные идеи: игрушечной машинкой приводят в
+            движе&shy;ние целый съемочный павильон, играют с 12 собаками и сни&shy;мают все это одним дублем.
+         </p>
+
+         <div class="about-project-baloon --baloon_2 --scope-me-scale">
+            <p class="about-project-baloon__item --baloon_2 --item_1">«Есть столько безумных вещей, и
+               вы знаете наверняка, что они ни&shy;когда не
+               произойдут, но все равно надеетесь. Наша новая идея была из таких».
+            </p>
+            <p class="about-project-baloon__item --baloon_2 --item_2">Дэмиен Кулаш</p>
+         </div>
+
+         <p class="about-project-block__paragraph --par_4 --paragraph-mid --scope-me-fromLeft">
+            Летом 2015 года OK Go и S7 Airlines встретились, чтобы вместе реализовать грандиозный проект – снять первый
+            в мире профессиональный клип в невесомости. Самолет взмы&shy;вает вверх. Руки отталкиваются от сиденья, еще
+            секунда — и…
+         </p>
+      </section>
+
+      <!--mesto_syomok-->
+      <section class="filming-location-block">
+         <div class="filming-loc-bg-pics --back-pic-container">
+            <div class="filming-loc-bg-pics__picture --1kepkaOG --anim-type-3 --bg-img"></div>
+            <!-- beisbolka -->
+
+            <div class="filming-loc-bg-pics__picture --2furazhka --anim-type-1 --bg-img"></div>
+            <!-- police -->
+
+            <div class="filming-loc-bg-pics__picture --golovaDyrka --anim-type-5 --bg-img"></div>
+
+            <div class="filming-loc-bg-pics__picture --4obezyana --anim-type-2 --bg-img"></div>
+
+            <div class="filming-loc-bg-pics__picture --5rukaKamera --anim-type-4 --bg-img"></div>
+
+            <div class="filming-loc-bg-pics__picture --6beisbolkaOkgo --anim-type-4 --bg-img"></div>
+            <!-- beisbolka2 -->
+
+            <div class="filming-loc-bg-pics__picture --7lampa --anim-type-5 --bg-img"></div>
+            <!-- lampa -->
+
+            <div class="filming-loc-bg-pics__picture --8keda --anim-type-2 --bg-img"></div>
+            <!-- ked -->
+
+            <div class="filming-loc-bg-pics__picture --9tushitel --anim-type-3 --bg-img"></div>
+            <!-- ognetushitel -->
+
+            <div class="filming-loc-bg-pics__picture --10burger --anim-type-1 --bg-img"></div>
+            <!-- burger -->
+         </div>
+
+         <div class="kak-oni-sdelali-word --scope-me-scale --scope-me-queue">
+            <div class="kak-oni-sdelali-word__picture --k"></div>
+            <div class="kak-oni-sdelali-word__picture --a"></div>
+            <div class="kak-oni-sdelali-word__picture --ak"></div>
+            <div class="kak-oni-sdelali-word__picture --o"></div>
+            <div class="kak-oni-sdelali-word__picture --n"></div>
+            <div class="kak-oni-sdelali-word__picture --i"></div>
+            <div class="kak-oni-sdelali-word__picture --e"></div>
+            <div class="kak-oni-sdelali-word__picture --t"></div>
+            <div class="kak-oni-sdelali-word__picture --to"></div>
+            <div class="kak-oni-sdelali-word__picture --s"></div>
+            <div class="kak-oni-sdelali-word__picture --d"></div>
+            <div class="kak-oni-sdelali-word__picture --de"></div>
+            <div class="kak-oni-sdelali-word__picture --l"></div>
+            <div class="kak-oni-sdelali-word__picture --la"></div>
+            <div class="kak-oni-sdelali-word__picture --al"></div>
+            <div class="kak-oni-sdelali-word__picture --li"></div>
+         </div>
+
+         <div class="big-monitor-picture --anim-type-6"></div>
+         
+         <div class="filmings-word --scope-me-scale --scope-me-queue">
+            <div class="filmings-word__picture --s"></div>
+            <div class="filmings-word__picture --sy"></div>
+            <div class="filmings-word__picture --e"></div>
+            <div class="filmings-word__picture --m"></div>
+            <div class="filmings-word__picture --k"></div>
+            <div class="filmings-word__picture --i"></div>
+         </div>
+
+
+
+
+
+         <div class="backstage-clips-block --backStage_1">
+
+            <!--_1 -->
+            <div class="backstage-clips-block__group-item --item_1" data-backstage="1">
+               <a class="backstage-clips-block__link-item" href="javascript:;">
+                  <img src="img/pic/03_play.png" alt="asdd">
+               </a>
+
+               <img sr class="backstage-clips-block__bg-changer" src="img/pic/backStage_1.png" alt="faf">
+            </div>
+
+            <!--_2 -->
+            <div class="backstage-clips-block__group-item --item_2 --off" data-backstage="2">
+               <a class="backstage-clips-block__link-item" href="javascript:;">
+                  <img src="img/pic/03_play.png" alt="asd">
+               </a>
+
+               <img class="backstage-clips-block__bg-changer" src="img/pic/backStage_2.png" alt="asfa">
+            </div>
+
+            <!--_3 -->
+            <div class="backstage-clips-block__group-item --item_3 --off" data-backstage="3">
+               <a class="backstage-clips-block__link-item" href="javascript:;">
+                  <img src="img/pic/03_play.png" alt="asdasd">
+               </a>
+
+               <img class="backstage-clips-block__bg-changer" src="img/pic/backStage_3.png" alt="thing">
+            </div>
+
+            <!--_4 -->
+            <div class="backstage-clips-block__group-item --item_4 --off" data-backstage="4">
+               <a class="backstage-clips-block__link-item" href="javascript:;">
+                  <img src="img/pic/03_play.png" alt="thing">
+               </a>
+
+               <img class="backstage-clips-block__bg-changer" src="img/pic/backStage_4.png" alt="thing">
+            </div>
+
+            <!--_5 -->
+            <div class="backstage-clips-block__group-item --item_5 --off" data-backstage="5">
+               <a class="backstage-clips-block__link-item" href="javascript:;">
+                  <img src="img/pic/03_play.png" alt="thing">
+               </a>
+
+               <img class="backstage-clips-block__bg-changer" src="img/pic/backStage_5.png" alt="thing">
+            </div>
+
+            <!--_6 -->
+            <div class="backstage-clips-block__group-item --item_6 --off" data-backstage="6">
+
+               <a class="backstage-clips-block__link-item" href="javascript:;">
+                  <img src="img/pic/03_play.png" alt="thing">
+               </a>
+
+               <img class="backstage-clips-block__bg-changer" src="img/pic/backStage_6.png" alt="thing">
+            </div>
+
+
+            <ul class="backstage-monitors">
+               <li class="backstage-monitors__list-item --item_1">
+                  <a class="backstage-monitors__link --link_1" href="javascript:;" data-monitor="1">
+                     <img src="img/pic/clips_1_zaKadrom.png" alt="thing">
+                  </a>
+               </li>
+
+               <li class="backstage-monitors__list-item --item_2">
+                  <a class="backstage-monitors__link --link_2" href="javascript:;" data-monitor="2">
+                     <img src="img/pic/clips_2_pervyPolet.png" alt="thing">
+                  </a>
+               </li>
+
+               <li class="backstage-monitors__list-item --item_3">
+                  <a class="backstage-monitors__link --link_3" href="javascript:;" data-monitor="3">
+                     <img src="img/pic/clips_3_parabola.png" alt="thing">
+                  </a>
+               </li>
+
+               <li class="backstage-monitors__list-item --item_4">
+                  <a class="backstage-monitors__link --link_4 notAval" href="javascript:;" data-monitor="1">
+                     <img src="img/pic/clips_0_soon_hide4.png" alt="thing">
+                  </a>
+               </li>
+
+               <li class="backstage-monitors__list-item --item_5">
+                  <a class="backstage-monitors__link --link_5 notAval" href="javascript:;" data-monitor="1">
+                     <img src="img/pic/clips_0_soon_hide5.png" alt="thing">
+                  </a>
+               </li>
+
+               <li class="backstage-monitors__list-item">
+                  <a class="backstage-monitors__link --link_6 notAval" href="javascript:;" data-monitor="1">
+                     <img src="img/pic/clips_0_soon_hide6.png" alt="thing">
+                  </a>
+               </li>
+            </ul>
+         </div>
+
+         <div class="filming-loc-baloon --baloon_1 --scope-me-scale">
+            <p class="filming-loc-baloon__item --item_1">«Приятно, что супер-амбициоз&shy;ную идею, снять
+               клип в невесо&shy;мости, нам удалось
+               реализовать именно в России».
+            </p>
+
+            <p class="filming-loc-baloon__item --item_2">Энди Росс</p>
+         </div>
+
+         <div class="three-decimal-block">
+            <ul class="three-decimal-list --scope-me-queue">
+               <li class="three-decimal-list__list-item --item_1">
+                  <div class="three-decimal-list__img-cont">
+                     <div class="three-decimal-list__img --item_1"></div>
+                  </div>
+
+                  <p class="three-decimal-list__paragraph ">недели съёмок <br>
+                     в Звёздном<br>
+                     Городке.
+                  </p>
+               </li>
+
+               <li class="three-decimal-list__list-item --item_2">
+                  <div class="three-decimal-list__img-cont">
+                     <div class="three-decimal-list__img --item_2"></div>
+                  </div>
+
+                  <p class="three-decimal-list__paragraph ">полет на самолете <br>
+                     ИЛ 76-МДК, <br>
+                     предназначенном <br>
+                     для тренировок <br>
+                     космонавтов.
+                  </p>
+               </li>
+
+               <li class="three-decimal-list__list-item --item_3">
+                  <div class="three-decimal-list__img-cont">
+                     <div class="three-decimal-list__img --item_3"></div>
+                  </div>
+
+                  <p class="three-decimal-list__paragraph ">первый <br>
+                     музыкальный клип <br>
+                     снятый в полной <br>
+                     невесомости.
+                  </p>
+               </li>
+            </ul>
+         </div><!-- -->
+
+         <div class="filming-loc-baloon --baloon_2 --scope-me-scale">
+            <p class="filming-loc-baloon__item --item_1">«Я, кажется, больше всех по&shy;лучил
+               удоволь&shy;ствие от по&shy;летов! То и дело
+               по&shy;вторял «Как здо&shy;рово!», пока все вокруг пери&shy;одически зе&shy;ленели от пере&shy;грузок и
+               не&shy;при&shy;вычных ощу&shy;щений».
+            </p>
+            <p class="filming-loc-baloon__item --item_2">Дэн Конопка</p>
+         </div>
+
+         <p class="filming-location-block__paragraph --paragraph-mid --scope-me-fromLeft">Видеоклип Upside Down and Inside Out —
+            это результат 1 (од&shy;ного!) идеального дубля,
+            который был сделан во время за&shy;ключительного, 21-го полёта группы в невесомости. Чем ещё уникален этот
+            проект?
+         </p>
+
+         <div class="interesting-facts-block --anim-type-6">
+
+            <ul class="interesting-facts-list --list_1 --scope-me-queue">
+               <li class="interesting-facts-list__list-item --item_1">
+                  <div class="interesting-facts-list__list_1-item_1"></div>
+               </li>
+
+               <li class="interesting-facts-list__list-item --item_2">
+                  <div class="interesting-facts-list__list_1-item_2"></div>
+               </li>
+
+               <li class="interesting-facts-list__list-item --item_3">
+                  <div class="interesting-facts-list__list_1-item_3"></div>
+               </li>
+            </ul>
+
+            <ul class="interesting-facts-list --list_2">
+               <li class="interesting-facts-list__list-item --item_1">
+                  <p class="tac">тонну весила деко&shy;рация салона, кото&shy;рую установили на борту самолета.</p>
+               </li>
+
+               <li class="interesting-facts-list__list-item --item_2">
+                  <p class="tac">камаза понадоби&shy;лось для того, чтобы привезти её.</p>
+               </li>
+
+               <li class="interesting-facts-list__list-item --item_3">
+                  <p class="tac">недели продолжа&shy;лись съемки.</p>
+               </li>
+            </ul>
+
+            <ul class="interesting-facts-list --list_3 --scope-me-queue">
+               <li class="interesting-facts-list__list-item --list_3 --item_1">
+                  <div class="interesting-facts-list__cont --list_3 --item_1"></div>
+               </li>
+
+               <li class="interesting-facts-list__list-item --list_3 --item_2">
+                  <div class="interesting-facts-list__cont --list_3 --item_2"></div>
+               </li>
+
+               <li class="interesting-facts-list__list-item --list_3 --item_3">
+                  <div class="interesting-facts-list__cont --list_3 --item_3"></div>
+               </li>
+            </ul>
+
+            <ul class="interesting-facts-list --list_4">
+               <li class="interesting-facts-list__list-item --item_1">
+                  <p class="tac">человек сошло с дистанции после первых полетов, потому что не смогли перенести
+                     невесомость.</p>
+               </li>
+
+               <li class="interesting-facts-list__list-item --item_2">
+                  <p class="tac">пиньят с 400 кг кон&shy;фетти, игрушек и конфет разбито за все время проекта.</p>
+               </li>
+
+               <li class="interesting-facts-list__list-item --item_3">
+                  <p class="tac">человека съемоч&shy;ной группы и Центра подготовки космонавтов обе&shy;спечивали
+                     созда&shy;ние клипа.</p>
+               </li>
+            </ul>
+
+            <ul class="interesting-facts-list --list_5 --scope-me-queue">
+               <li class="interesting-facts-list__list-item --list_5 --item_1">
+                  <div class="interesting-facts-list__cont --list_5 --item_1"></div>
+               </li>
+
+               <li class="interesting-facts-list__list-item --list_5 --item_2 rtl_ul3_2">
+                  <div class="interesting-facts-list__cont --list_5 --item_2"></div>
+               </li>
+
+               <li class="interesting-facts-list__list-item --list_5 --item_3">
+                  <div class="interesting-facts-list__cont --list_5 --item_3"></div>
+               </li>
+            </ul>
+
+            <ul class="interesting-facts-list --list_6">
+               <li class="interesting-facts-list__list-item --list_6 --item_1">
+                  <p class="interesting-facts-list__paragraph">минут, в общей сложности, провела группа в
+                     невесомо&shy;сти. На 18 минут дольше, чем
+                     длился полет Юрия
+                     Гагарина.</p>
+               </li>
+
+               <li class="interesting-facts-list__list-item --list_6 --item_2">
+                  <p class="interesting-facts-list__paragraph">литров краски было использовано в по&shy;следних
+                     дублях.</p>
+               </li>
+
+               <li class="interesting-facts-list__list-item --list_6 --item_3">
+                  <p class="interesting-facts-list__paragraph">парабол - столько раз ребята из OK Go ловили
+                     невесо&shy;мость.</p>
+               </li>
+            </ul>
+
+            <ul class="interesting-facts-list --list_7 --scope-me-queue">
+               <li class="interesting-facts-list__list-item --list_7 --item_1">
+                  <div class="interesting-facts-list__cont --list_7 --cont_1"></div>
+               </li>
+
+               <li class="interesting-facts-list__list-item --list_7 --item_2">
+                  <p class="tac">шаров и мячей вы&shy;прыгнуло из полок для ручной клади за время проекта.</p>
+               </li>
+            </ul>
+
+         </div><!-- interesting-facts-block -->
+      </section><!-- mesto_syomok -->
+
+      <section class="photo-block">
+
+         <div class="photo-block-bg-pictures --back-pic-container">
+            <div class="photo-block-bg-pictures__picture --1ogromnyMudak --anim-type-4 --bg-img"></div>
+
+            <div class="photo-block-bg-pictures__picture --2molnia --anim-type-2 --bg-img"></div>
+         </div>
+
+         <div class="photo-block-word --scope-me-scale --scope-me-queue">
+            <div class="photo-block-word__picture --1f"></div>
+            <div class="photo-block-word__picture --2o"></div>
+            <div class="photo-block-word__picture --3t"></div>
+            <div class="photo-block-word__picture --4o"></div>
+            <div class="photo-block-word__picture --5s"></div>
+            <div class="photo-block-word__picture --6m"></div>
+            <div class="photo-block-word__picture --7e"></div>
+            <div class="photo-block-word__picture --8s"></div>
+            <div class="photo-block-word__picture --9t"></div>
+            <div class="photo-block-word__picture --10a"></div>
+            <div class="photo-block-word__picture --11s"></div>
+            <div class="photo-block-word__picture --12sy"></div>
+            <div class="photo-block-word__picture --13e"></div>
+            <div class="photo-block-word__picture --14m"></div>
+            <div class="photo-block-word__picture --15o"></div>
+            <div class="photo-block-word__picture --16k"></div>
+         </div>
+
+         <div class="photo-galery --anim-type-6">
+            <div class="photo-galery__galery-container --left">
+               <div class="photo-galery__photo-list">
+                  <ul class="galery-list-photos">
+
+                  </ul>
+               </div>
+
+               <div class="photo-galery__photo-circles">
+                  <ul class="galery-list-circles">
+
+                  </ul>
+               </div>
+            </div>
+
+            <div class="photo-galery-navigation">
+               <input class="photo-galery-navigation__btn --left" type="button" value="left">
+               <input class="photo-galery-navigation__btn --right" type="button" value="right">
+            </div>
+         </div><!-- photo-galery -->
+      </section><!-- photo -->
+
+      <section class="nevesomost-block">
+         <div class="nevesomost-bg-pics --back-pic-container">
+            <div class="nevesomost-bg-pics__picture --1blaster --anim-type-1 --bg-img"></div>
+            <!-- blaster -->
+
+            <div class="nevesomost-bg-pics__picture --2shlem --anim-type-2 --bg-img"></div>
+            <!-- shlem -->
+
+            <div class="nevesomost-bg-pics__picture --3nogiZhopa --anim-type-3 --bg-img"></div>
+            <!-- kosmo1 -->
+
+            <div class="nevesomost-bg-pics__picture --4mudakGitara --anim-type-4 --bg-img"></div>
+            <!-- kosmo2 -->
+
+            <div class="nevesomost-bg-pics__picture --5cvetok --anim-type-5 --bg-img"></div>
+            
+            <div class="nevesomost-bg-pics__picture --6kepler --bg-img --scope-me-fromRight"></div>
+            <!-- kepler -->
+
+            <div class="nevesomost-bg-pics__picture --7gamburger --anim-type-2 --bg-img"></div>
+            <!-- burger -->
+         </div>
+
+         <div class="nevesomost-blue-word --scope-me-scale --scope-me-queue">
+            <div class="filnevesomost-blue-word__picture --1n"></div>
+            <div class="filnevesomost-blue-word__picture --2e"></div>
+            <div class="filnevesomost-blue-word__picture --3v"></div>
+            <div class="filnevesomost-blue-word__picture --4e"></div>
+            <div class="filnevesomost-blue-word__picture --5s"></div>
+            <div class="filnevesomost-blue-word__picture --6o"></div>
+            <div class="filnevesomost-blue-word__picture --7m"></div>
+            <div class="filnevesomost-blue-word__picture --8o"></div>
+            <div class="filnevesomost-blue-word__picture --9s"></div>
+            <div class="filnevesomost-blue-word__picture --10t"></div>
+            <div class="filnevesomost-blue-word__picture --11ty"></div>
+         </div>
+
+         <div class="parabola-word --scope-me-queue">
+            <div class="parabola-word__picture --1p"></div>
+            <div class="parabola-word__picture --2a"></div>
+            <div class="parabola-word__picture --3r"></div>
+            <div class="parabola-word__picture --4a"></div>
+            <div class="parabola-word__picture --5b"></div>
+            <div class="parabola-word__picture --6o"></div>
+            <div class="parabola-word__picture --7l"></div>
+            <div class="parabola-word__picture --8a"></div>
+            <div class="parabola-word__picture --9k"></div>
+            <div class="parabola-word__picture --10e"></div>
+            <div class="parabola-word__picture --11p"></div>
+            <div class="parabola-word__picture --12l"></div>
+            <div class="parabola-word__picture --13e"></div>
+            <div class="parabola-word__picture --14r"></div>
+            <div class="parabola-word__picture --15a"></div>
+         </div>
+
+         <p class="nevesomost-block__paragraph --paragraph-mid --kepler --scope-me-fromLeft">
+            Так называется траектория полета, которая позволяет самолету попасть в состояние неве&shy;сомости. Ил-76 МДК
+            взлетает в обычном режиме и поднимается на высоту 6 тысяч метров. После чего, под углом в 45º и с
+            максимальным ускорением, за 15 секунд набирает высоту до 9 тысяч метров. В это время все, кто находится на
+            борту, ощущают перегрузку 2g, которая затем сменяется состоянием невесомости, когда са&shy;молет с отметки 9
+            тыс. м практически без тяги двигателей летит по баллистической траекто&shy;рии (плавной дуге).
+         </p>
+
+         <p class="nevesomost-block__paragraph --paragraph-mid --kepler --scope-me-fromRight">
+            Продолжается это состояние от 22 до 28 секунд, после чего двигатели снова включа&shy;ются, и на отметке 6
+            тыс. м Ил-76 переходит в обычный горизонтальный полет.</p>
+
+         <div class="samolet-block">
+            <div class="samolet-block__samolet" src="img/pic/54_1.png" alt="thing"></div>
+
+            <div class="samolet-block__setka-parabola"></div>
+         </div><!-- planePathBlock -->
+
+         <p class="nevesomost-block__paragraph --paragraph-mid --scope-me-fromLeft">
+            Таких самолетов в мире не больше пяти. В одном из них и проходили съемки клипа OK Go.
+         </p>
+
+         <div class="nevesomost-peregruzki-block">
+
+            <ul class="nevesomost-peregruzki-list --list_1 --scope-me-queue">
+               <li class="nevesomost-peregruzki-list__list-item --item_1">
+                  <div class="nevesomost-peregruzki-list__container">
+                     <div class="nevesomost-peregruzki-list__picture --list-item_1-pic_1"></div>
+
+                     <div class="nevesomost-peregruzki-list__picture --list-item_1-pic_2"></div>
+                  </div>
+               </li>
+
+               <li class="nevesomost-peregruzki-list__list-item --item_2">
+                  <div class="nevesomost-peregruzki-list__container">
+                     <div class="nevesomost-peregruzki-list__picture --list-item_2-pic_1"></div>
+
+                     <div class="nevesomost-peregruzki-list__picture --list-item_2-pic_2"></div>
+                  </div>
+               </li>
+
+               <li class="nevesomost-peregruzki-list__list-item --item_3">
+                  <div class="nevesomost-peregruzki-list__container">
+                     <div class="nevesomost-peregruzki-list__picture --list-item_3-pic_1"></div>
+
+                     <div class="nevesomost-peregruzki-list__picture --list-item_3-pic_2"></div>
+                  </div>
+               </li>
+            </ul>
+
+            <ul class="nevesomost-peregruzki-list --list_2">
+               <li class="nevesomost-peregruzki-list__list-item --item_1">
+                  <p class="nevesomost-peregruzki-list__paragraph">парабол совершает самолет за один
+                     полет.
+
+                  </p>
+               </li>
+
+               <li class="nevesomost-peregruzki-list__list-item --item_2">
+                  <p class="nevesomost-peregruzki-list__paragraph">секунды длится не&shy;весомость на
+                     верх&shy;ней точке парабо&shy;лы.</p>
+               </li>
+
+               <li class="nevesomost-peregruzki-list__list-item --item_3">
+                  <p class="nevesomost-peregruzki-list__paragraph">во время набора высоты перед входом в
+                     параболу и после невесомо&shy;сти
+                     человека притя&shy;гивает к Земле с двойной силой.
+                  </p>
+               </li>
+            </ul>
+         </div>
+      </section><!-- nevesomost-block nevesomost -->
+
+      <section class="cast-block">
+
+         <div class="cast-bg-pictures --back-pic-container">
+            <div class="cast-bg-pictures__picture --1ogromnyMudak --anim-type-5 --bg-img"></div>
+               <!-- kosmo1 -->
+               
+            <div class="cast-bg-pictures__picture --2sintezator --anim-type-1 --bg-img"></div>
+            <!-- sintezator -->
+         </div>
+
+         <div class="titry-word --scope-me-scale --scope-me-queue">
+            <div class="titry-word__picture --1t"></div>
+            <div class="titry-word__picture --2i"></div>
+            <div class="titry-word__picture --3t"></div>
+            <div class="titry-word__picture --4r"></div>
+            <div class="titry-word__picture --5i"></div>
+         </div>
+
+         <div class="cast-block__group --group_1 --scope-me-queue">
+            <p class="cast-block__paragraph --h1">OK Go:</p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Режиссер – </span>
+               <span>Триш Си</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Режиссер – </span>
+               <span>Дэмиен Кулаш</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Гитара – </span>
+               <span>Энди Росс</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">
+                  Басс / Баскетбольный игрок # 1 – </span>
+               <span>Тим Нордвинд</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Ударные – </span>
+               <span>Дэн Конопка</span>
+            </p>
+         </div>
+
+         <div class="cast-block__group --group_2 --scope-me-fromRight">
+            <p class="cast-block__paragraph --h1">S7 Airlines:</p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Заместитель генерального директора S7 по маркетингу –
+               </span>
+               <span>Татьяна Филёва</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Директор департамента маркетинговых
+                  коммуникаций – </span>
+               <span>Элеонора Романова</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Заместитель начальника штаба ПАО «АК Сибирь» – </span>
+               <span>Владимир Ларин</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Руководитель креативной группы – </span>
+               <span>Константин Беляков</span>
+            </p>
+         </div>
+
+         <div class="cast-block__group --group_3 --scope-me-queue">
+            <p class="cast-block__paragraph --h1">TUTKOVBUDKOV Creative Agency:</p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Креативный директор – </span>
+               <span>Дмитрий Тютьков</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Аккаунт - менеджер – </span>
+               <span>Сергей Поляков</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Продюсер – </span>
+               <span>Олег Баринбойм</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Копирайтер – </span>
+               <span>Елена Шиляева</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Арт - директор – </span>
+               <span>Дмитрий Костюченко</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Фотограф – </span>
+               <span>Николай Иванов</span>
+            </p>
+         </div>
+
+         <div class="cast-block__group --group_4 --scope-me-queue">
+            <p class="cast-block__paragraph --h1">PROFILM Studio:</p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Оператор - постановщик – </span>
+               <span>Евгений Ермоленко</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Продюсер – </span>
+               <span>Владимир Сигалов</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Помощник продюсера – </span>
+               <span>Максим Свеженец</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Помощник режиссера – </span>
+               <span>Анастасия Чистова</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Помощник режиссера – </span>
+               <span>Андрей Томашевский</span>
+            </p>
+         </div>
+
+         <div class="cast-block__group --group_5 --scope-me-fromLeft">
+            <p class="cast-block__paragraph --h1">BOB Industries:</p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Исполнительный продюсер – </span>
+               <span>Джон О’Грэйди</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Продюсер – </span>
+               <span>Мелисса Мёрфи</span>
+            </p>
+         </div>
+
+         <div class="cast-block-baloon --baloon_1 --scope-me-scale">
+            <p class="cast-block-baloon__paragraph">Особая благодарность инструкторам, экипажу
+               и летно – техническому персоналу Центра
+               подготовки космонавтов им. Ю.А. Гагарина.
+            </p>
+         </div>
+
+         <div class="cast-block-logo imgLogo">
+            <img class="cast-block-logo__img" src="img/pic/cpk.jpg" alt="thing">
+         </div>
+
+         <div class="cast-block__group --group_6 --scope-me-fromLeft">
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Начальник Центра подготовки космонавтов
+                  имени Ю. А. Гагарина – </span>
+               <span>Юрий Лончаков</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Начальник отдела международных отношений – </span>
+               <span>Игорь Рудяев</span>
+            </p>
+         </div>
+
+         <div class="cast-block__group --group_7 --scope-me-queue">
+            <p class="cast-block__paragraph --par-item_1 --h1 ">Испытательно-тренировочная бригада (инструкторы):
+            </p>
+
+            <p class="cast-block__paragraph --par-item_2 --staff">
+               <span class="--color-bright-green">Заместитель начальника управления экстремальных видов
+                  подготовки ЦПК, Герой
+                  Российской Федерации – </span>
+               <span>Виктор Рень</span>
+            </p>
+
+            <p class="cast-block__paragraph --par-item_3 --staff">Анатолий Забрусков</p>
+            <p class="cast-block__paragraph --par-item_4 --staff">Павел Крежановский</p>
+            <p class="cast-block__paragraph --par-item_5 --staff">Алексей Хоменчук</p>
+            <p class="cast-block__paragraph --par-item_6 --staff">Борис Егоров</p>
+            <p class="cast-block__paragraph --par-item_7 --staff">Руслан Ельцов</p>
+            <p class="cast-block__paragraph --par-item_8 --staff">Сергей Харлашкин</p>
+            <p class="cast-block__paragraph --par-item_9 --staff">Алексей Шорошев</p>
+            <p class="cast-block__paragraph --par-item_10 --staff">Алексей Киселев</p>
+            <p class="cast-block__paragraph --par-item_11 --staff">Александра Тюрина</p>
+            <p class="cast-block__paragraph --par-item_12 --staff">Борис Корнев</p>
+         </div>
+
+         <div class="cast-block__group --group_8 --scope-me-queue">
+            <p class="cast-block__paragraph --h1">Лётно-кабинный экипаж:</p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Пилот – </span>
+               <span>Роман Егоренко</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Пилот – </span>
+               <span>Сергей Магро</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Пилот – </span>
+               <span>Александр Говоров</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Штурман – </span>
+               <span>Роман Гришкин</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Штурман – </span>
+               <span>Евгений Рогойша</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Бортрадист – </span>
+               <span>Александр Сунцов</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Бортрадист – </span>
+               <span>Дмитрий Трунов</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Бортрадист – </span>
+               <span>Сергей Овчаренко</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Бортинженер – </span>
+               <span>Тихон Агафонов</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Бортинженер – </span>
+               <span>Алексей Ильюченко</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Борттехник – </span>
+               <span>Алексей Давыдов</span>
+            </p>
+
+            <p class="cast-block__paragraph --staff">
+               <span class="--color-bright-green">Бортмеханик – </span>
+               <span>Роман Зверев</span>
+            </p>
+         </div>
+
+         <div class="element_9"></div>
+      </section><!-- cast-block titry-->
+   </main><!--  cut-->
+</body>
+<!-- scripts -->
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="js/youtube.js" type="text/javascript"></script>
+<script src="js/pageScripts.js" type="text/javascript"></script>
+
+<script>
+   window.onload = function(){
+      var preloader = $('.preloader');
+      preloader.addClass('removed');
+   }
+</script>
+
+</html>
